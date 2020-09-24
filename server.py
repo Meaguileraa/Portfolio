@@ -4,23 +4,39 @@ from flask import (Flask, render_template, jsonify, request, redirect)
 
 app = Flask(__name__) 
 
-@app.route('/')
+@app.route("/")
 def homepage():
     """View a homepage."""
 
-@app.route('/projects')
+    return render_template("root.html")
+
+
+
+@app.route("/projects")
 def projects_page():
     """View all projects."""
 
-@app.route('/resume')
+    return render_template("root.html")
+
+
+
+@app.route("/resume")
 def resume_page():
     """View resume."""
     #view or download resume? 
 
-@app.route('/contact')
+    return render_template("root.html")
+
+
+
+@app.route("/contact")
 def contact_page():
     """View listed contact information."""
     #linkedin, github, email, phone number
+
+    return render_template("root.html")
+
+
 
 
 if __name__ == '__main__':

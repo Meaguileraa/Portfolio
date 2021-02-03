@@ -13,8 +13,45 @@
 
 
     <body>
+            <!-- Navbar nav-links -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light"> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+                <div class="navbar-nav justify-content-between">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                        <a href="#about-section" class="nav-link">About</a>
+                        </li>&nbsp;
+                        <!-- add styles to the a tags for colors  -->
+    
+                        <li class="nav-item">
+                        <a href="#skills-section" class="nav-link">Skills</a>
+                        </li>&nbsp;
+    
+                        <li class="nav-item">
+                        <a href="#projects-section" class="nav-link">Projects</a>
+                        </li>&nbsp;
+
+                        <li class="nav-item">
+                        <a href="#work-experience-section" class="nav-link">Work Experience</a>
+                        </li>&nbsp;
+
+                        <li class="nav-item">
+                        <a href="#contact-section" class="nav-link">Contact</a>
+                        </li>&nbsp;
+
+                    </ul>
+                    <div id="resume-download">
+                        <a href="/static/imgs/resume_download.pdf" alt="Download Current Resume" download="Resume">
+                            Resume
+                        </a>
+                    </div>
+            </div>
+        </nav>
+
+
+
         <!-- About Section -->
-        <div class ="about-section">
+        <div class ="about-section" id ="about-section">
             <div id="about-title">About</div>
             <div id="about-text">
                 <p>
@@ -35,49 +72,57 @@
                 </p>
             </div>
         </div>
-        
-        <!-- Technical Skills Section -->
-        <div class ="tech-skills-section">
-            <div id="tech-skills-title">Technical Skills</div>
-            <div id="tech-skills-text">
-                <ul>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>SQL</li>
-                    <li>Flask</li>
-                    <li>jQuery</li>
-                    <li>React.js</li>
-                    <li>Bootstrap</li>
-                    <li>Jinja</li>
-                    <li>PostgreSQL</li>
-                    <li>SQLAlchemy</li>
-                    <li>Git/GitHub</li>
-                </ul>
+
+
+
+        <!-- Skills Section -->
+        <div class="skills-section" id="skills-section">
+            
+            <!-- Technical Skills Section -->
+            <div class ="tech-skills-section">
+                <div id="tech-skills-title">Technical Skills</div>
+                <div id="tech-skills-text">
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                        <li>Flask</li>
+                        <li>jQuery</li>
+                        <li>React.js</li>
+                        <li>Bootstrap</li>
+                        <li>Jinja</li>
+                        <li>PostgreSQL</li>
+                        <li>SQLAlchemy</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Soft Skills Section -->
+            <div class ="soft-skills-section">
+                <div id="soft-skills-title">Soft Skills</div>
+                <div id="soft-skills-text">
+                    <ul>
+                        <li>Communication</li>
+                        <li>Organization</li>
+                        <li>Adaptability</li>
+                        <li>Team Player</li>
+                        <li>Creativity</li>
+                        <li>Problem Solver</li>
+                        <li>Collaboration</li>
+                        <li>Empathy</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <!-- Soft Skills Section -->
-        <div class ="soft-skills-section">
-            <div id="soft-skills-title">Soft Skills</div>
-            <div id="soft-skills-text">
-                <ul>
-                    <li>Communication</li>
-                    <li>Organization</li>
-                    <li>Adaptability</li>
-                    <li>Team Player</li>
-                    <li>Creativity</li>
-                    <li>Problem Solver</li>
-                    <li>Collaboration</li>
-                    <li>Empathy</li>
-                    <li>Time Management</li>
-                </ul>
-            </div>
-        </div>
+
 
         <!-- Project Section -->
-        <div class ="projects-section">
+        <div class ="projects-section" id="projects-section">
             <div id="projects-title">Projects</div>
             <div id="projects-text">
                 <div class="npsg-section">
@@ -101,35 +146,53 @@
             </div>
         </div>
 
-        <!-- Resume Section -->
-        <div class ="resume-section">
-            <div id="resume-title">Resume</div>
-            <div id="resume-download">
-                <a href="/static/imgs/resume_download.pdf" alt="Download Current Resume" download="Resume">
-                    Download Resume
-                </a>
-            </div>
-            <div id="resume">
-                <img src="/static/imgs/resume_picture.png" alt="Current Resume"/>
-                <!-- height="700" width="650" -->
+
+
+        <!-- Work Experience Section -->
+        <div class ="work-experience-section" id="work-experience-section">
+            <div id="work-experience-title">Work Experience</div>
+            <div id="work-experience-text">
+                <div class="kt-section">
+                    <div id="kt-src-title">KeepTruckin | Technical Sourcing Specialist | SF, CA | Oct 2018 - Feb 2020</div>
+                    <div id="kt-src-text">
+                        <ul>
+                            <li>Collaborated with 20+ engineers on needs of role, interview strategies, and to build pipeline</li>
+                            <li>Independently owned six SWE roles where I supported candidates from source to hire</li>
+                        </ul>
+                    </div>
+                    <div id="kt-rc-title">KeepTruckin | Recruiting Coordinator | SF, CA | Jan 2018 - Oct 2018</div>
+                    <div id="kt-rc-text">
+                        <ul>
+                            <li>Scheduled number of phone, video, and onsite interviews at our San Francisco, Buffalo, and Nashville offices</li>
+                            <li>Utilized Lever ATS and later Greenhouse ATS to track requisitions and candidate progress</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
+
     </body>
 
+
+
+    <!-- Contact Section -->
     <footer>
+        <div class ="contact-section" id="contact-section">
+            <div class="contact-me-title">Contact</div>
+            <div class="social-links">
+                <div id="linkedin-link">
+                    <a href="https://www.linkedin.com/in/marissa-aguilera/"><img src="/static/imgs/linkedin-icon.png" alt="Direct to LinkedIn" height="50" width="50"></a>
+                </div>
+                <div id="github-link">
+                    <a href="https://github.com/Meaguileraa"><img src="/static/imgs/github-icon.png" alt="Direct to GitHub" height="70" width="70"></a>
+                </div>
+                <div id="email-link">
+                    <a href="mailto:marissaeaguilera@.gmail.com"><img src="/static/imgs/email-icon.png" alt="Direct to Email" height="60" width="60"></a>
+                </div>
+            </div>
+        </div>
         <p>
             Designed & Built by Marissa Aguilera 
         </p>
-        <div class="social-links">
-            <div id="linkedin-link">
-                <a href="https://www.linkedin.com/in/marissa-aguilera/"><img src="/static/imgs/linkedin-icon.png" alt="Direct to LinkedIn" height="50" width="50"></a>
-            </div>
-            <div id="github-link">
-                <a href="https://github.com/Meaguileraa"><img src="/static/imgs/github-icon.png" alt="Direct to GitHub" height="70" width="70"></a>
-            </div>
-            <div id="email-link">
-                <a href="mailto:marissaeaguilera@.gmail.com"><img src="/static/imgs/email-icon1.png" alt="Direct to Email" height="60" width="60"></a>
-            </div>
-        </div>
     </footer>
 </html>

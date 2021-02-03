@@ -2,69 +2,79 @@
 
 <html>
     <head>
+        <title>
+            {% block title %}Marissa Aguilera - Portfolio{% endblock %}
+        </title>
+
+        <!-- Favicon Links -->
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest"> -->
+
+        <!-- Bootstrap CSS from getbootstrap.com -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
         <!-- Load my stylesheet -->
         <link rel="stylesheet" href="/static/css/styles.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>
-            {% block title %}Marissa Aguilera - Portfolio{% endblock %}
-        </title>
     </head>
 
 
     <body>
-            <!-- Navbar nav-links -->
+        <!-- Navbar nav-links -->
         <nav id="navbar" class="navbar navbar-expand-lg navbar-light"> 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">  
                 <div class="navbar-nav justify-content-between">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                        <a href="#about-section" class="nav-link">About</a>
+                            <a href="#about-section" class="nav-link">About</a>
                         </li>&nbsp;
-    
+                        
                         <li class="nav-item">
-                        <a href="#skills-section" class="nav-link">Skills</a>
+                            <a href="#skills-section" class="nav-link">Skills</a>
                         </li>&nbsp;
-    
+                        
                         <li class="nav-item">
-                        <a href="#projects-section" class="nav-link">Projects</a>
+                            <a href="#projects-section" class="nav-link">Projects</a>
                         </li>&nbsp;
-
+                        
                         <li class="nav-item">
-                        <a href="#work-experience-section" class="nav-link">Work Experience</a>
+                            <a href="#work-experience-section" class="nav-link">Work Experience</a>
                         </li>&nbsp;
-
+                        
                         <li class="nav-item">
-                        <a href="#contact-section" class="nav-link">Contact</a>
+                            <a href="#contact-section" class="nav-link">Contact</a>
                         </li>&nbsp;
-
+                        
                     </ul>
                     <div id="resume-download">
                         <a href="/static/imgs/resume_download.pdf" alt="Download Current Resume" download="Resume">
                             Resume
                         </a>
                     </div>
-            </div>
-        </nav>
-
-
-
-        <!-- About Section -->
-        <div class ="about-section" id ="about-section">
-            <div id="about-title">About</div>
-            <div id="about-pic">
-                <img src="/static/imgs/headshot.png" alt="Headshot">
-            </div>
-            <div id="about-text">
-                <p>
-                    Hi, I'm Marissa and I'm a Software Engineer based in San Francisco, CA. I received my 
-                    Bachelors degree in Business from California State University, Chico and started my career 
-                    in technical recruitment. Being in this field of work allowed me to speak to a lot of 
-                    Software Engineers daily, which continuosly piqued my interest. This led to me deciding 
-                    to make a career switch and pursue software engineering. In September 2020 I completed
-                    Hackbright Academy's 12 week coding bootcamp where I learned a full-stack curriculum and 
-                    the computer science fundamentals.</br>  
-                </br>
+                </div>
+            </nav>
+            
+            
+            
+            <!-- About Section -->
+            <div class ="about-section" id ="about-section">
+                <div id="about-title">About</div>
+                <div id="about-pic">
+                    <img src="/static/imgs/headshot.png" alt="Headshot">
+                </div>
+                <div id="about-text">
+                    <p>
+                        Hi, I'm Marissa and I'm a Software Engineer based in San Francisco, CA. I received my 
+                        Bachelors degree in Business from California State University, Chico and started my career 
+                        in technical recruitment. Being in this field of work allowed me to speak to a lot of 
+                        Software Engineers daily, which continuosly piqued my interest. This led to me deciding 
+                        to make a career switch and pursue software engineering. In September 2020 I completed
+                        Hackbright Academy's 12 week coding bootcamp where I learned a full-stack curriculum and 
+                        the computer science fundamentals.</br>  
+                    </br>
                     As I transition into this new career, I am very eager to learn new technologies and 
                     am passionate about working on a team where the work I am doing is meaningful and impactufl. 
                     I enjoy building relationships with team members, collaborating cross-functionally, and overall 
@@ -74,9 +84,9 @@
                 </p>
             </div>
         </div>
-
-
-
+        
+        
+        
         <!-- Skills Section -->
         <div class="skills-section" id="skills-section">
             
@@ -101,7 +111,7 @@
                     </ul>
                 </div>
             </div>
-
+            
             <!-- Soft Skills Section -->
             <div class ="soft-skills-section">
                 <div id="soft-skills-title">Soft Skills</div>
@@ -120,9 +130,9 @@
                 </div>
             </div>
         </div>
-
-
-
+        
+        
+        
         <!-- Project Section -->
         <div class ="projects-section" id="projects-section">
             <div id="projects-title">Projects</div>
@@ -147,9 +157,9 @@
                 </div>
             </div>
         </div>
-
-
-
+        
+        
+        
         <!-- Work Experience Section -->
         <div class ="work-experience-section" id="work-experience-section">
             <div id="work-experience-title">Work Experience</div>
@@ -172,11 +182,18 @@
                 </div>
             </div>
         </div>
-
+        
+        <!-- jQuery script tag from code.jquery.com -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        
+        <!-- Script tags from getbootstrap.com -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
     </body>
-
-
-
+    
+    
+    
     <!-- Contact Section -->
     <footer>
         <div class ="contact-section" id="contact-section">

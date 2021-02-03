@@ -1,15 +1,11 @@
 
-# Portfolio 
-
-
-## About
-I built a full-stack web application to display my portfolio as I transition into software engineering. 
+# Portfolio 👩🏽‍💻
 
 
 ## Deployment
-* Deployed via Lightsail on AWS
-<!-- * Visit NPS Guide at [http://www.nps-guide.com/](http://www.nps-guide.com/) -->
 
+### Deployed via Lightsail on AWS
+<!-- * Visit NPS Guide at [http://www.nps-guide.com/](http://www.nps-guide.com/) -->
 
 ## Installation
 

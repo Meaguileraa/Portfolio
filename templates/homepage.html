@@ -24,30 +24,27 @@
 
     <body>
         <!-- Navbar nav-links -->
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light container"> 
+
+        <nav class="navbar navbar-expand-lg navbar-light container" id="navbar"> 
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">  
                 <div class="navbar-nav justify-content-between">
-                    <ul class="nav nav-pills">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a href="#about-section" class="nav-link">About</a>
-                        </li>&nbsp;
-                        
+                        </li>
                         <li class="nav-item">
                             <a href="#skills-section" class="nav-link">Skills</a>
-                        </li>&nbsp;
-                        
+                        </li>
                         <li class="nav-item">
                             <a href="#projects-section" class="nav-link">Projects</a>
-                        </li>&nbsp;
-                        
+                        </li>
                         <li class="nav-item">
                             <a href="#work-experience-section" class="nav-link">Work Experience</a>
-                        </li>&nbsp;
-                        
+                        </li>
                         <li class="nav-item">
                             <a href="#contact-section" class="nav-link">Contact</a>
-                        </li>&nbsp;
-                        
+                        </li>
                     </ul>
                     <div id="resume-download">
                         <a href="/static/imgs/resume_download.pdf" alt="Download Current Resume" download="Resume">
@@ -56,32 +53,38 @@
                     </div>
                 </div>
             </nav>
-            
+
+            <div class="name container">
+                <h1>Marissa Aguilera</h1>
+            </div>
             
             
             <!-- About Section -->
             <div class ="about-section container" id ="about-section">
-                <div id="about-title">About</div>
-                <div id="about-pic">
-                    <img src="/static/imgs/headshot.png" alt="Headshot" width="250" height="250">
+                <!-- <div id="about-title">About</div> -->
+                <div class="about-info row">
+                    <div class="about-pic col"id="about-pic">
+                        <img src="/static/imgs/headshot.png" alt="Headshot" width="250" height="250">
+                    </div>
+                    <div class="about-text col"id="about-text">
+                        <p>
+                            <h2>About</h2>
+                            Hi, I'm Marissa and I'm a Software Engineer based in San Francisco, CA. I received my 
+                            Bachelors degree in Business from California State University, Chico and started my career 
+                            in technical recruitment. Being in this field of work allowed me to speak to a lot of 
+                            Software Engineers daily, which continuosly piqued my interest. This led to me deciding 
+                            to make a career switch and pursue software engineering. In September 2020 I completed
+                            Hackbright Academy's 12 week coding bootcamp where I learned a full-stack curriculum and 
+                            computer science fundamentals.</br>  
+                        </br>
+                            As I transition into this new career, I am very eager to learn new technologies and 
+                            am passionate about working on a team where the work I am doing is meaningful and impactufl. 
+                            I enjoy building relationships with team members, collaborating cross-functionally, and overall 
+                            bringing a positive attitude to the team. Aside from coding, I enjoy hiking, roller skating, 
+                            and creating digital illustrations. I am a very creative person and am excited for my 
+                            future in tech!
+                    </p>
                 </div>
-                <div id="about-text">
-                    <p>
-                        Hi, I'm Marissa and I'm a Software Engineer based in San Francisco, CA. I received my 
-                        Bachelors degree in Business from California State University, Chico and started my career 
-                        in technical recruitment. Being in this field of work allowed me to speak to a lot of 
-                        Software Engineers daily, which continuosly piqued my interest. This led to me deciding 
-                        to make a career switch and pursue software engineering. In September 2020 I completed
-                        Hackbright Academy's 12 week coding bootcamp where I learned a full-stack curriculum and 
-                        the computer science fundamentals.</br>  
-                    </br>
-                    As I transition into this new career, I am very eager to learn new technologies and 
-                    am passionate about working on a team where the work I am doing is meaningful and impactufl. 
-                    I enjoy building relationships with team members, collaborating cross-functionally, and overall 
-                    bringing a positive attitude to the team. Aside from coding, I enjoy hiking, roller skating, 
-                    and creating digital illustrations. I am a very creative person and am excited for my 
-                    future in tech!
-                </p>
             </div>
         </div>
         
@@ -89,44 +92,47 @@
         
         <!-- Skills Section -->
         <div class="skills-section container" id="skills-section">
+            <h2>Skills</h2>
+            <div class="skills-section row">
             
-            <!-- Technical Skills Section -->
-            <div class ="tech-skills-section">
-                <div id="tech-skills-title">Technical Skills</div>
-                <div id="tech-skills-text">
-                    <ul>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SQL</li>
-                        <li>Flask</li>
-                        <li>jQuery</li>
-                        <li>React.js</li>
-                        <li>Bootstrap</li>
-                        <li>Jinja</li>
-                        <li>PostgreSQL</li>
-                        <li>SQLAlchemy</li>
-                        <li>Git/GitHub</li>
-                    </ul>
+                <!-- Technical Skills Section -->
+                <div class ="tech-skills-section col">
+                    <div id="tech-skills-title">Technical Skills</div>
+                    <div id="tech-skills-text">
+                        <ul>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SQL</li>
+                            <li>Flask</li>
+                            <li>jQuery</li>
+                            <li>React.js</li>
+                            <li>Bootstrap</li>
+                            <li>Jinja</li>
+                            <li>PostgreSQL</li>
+                            <li>SQLAlchemy</li>
+                            <li>Git/GitHub</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Soft Skills Section -->
-            <div class ="soft-skills-section">
-                <div id="soft-skills-title">Soft Skills</div>
-                <div id="soft-skills-text">
-                    <ul>
-                        <li>Communication</li>
-                        <li>Organization</li>
-                        <li>Adaptability</li>
-                        <li>Team Player</li>
-                        <li>Creativity</li>
-                        <li>Problem Solver</li>
-                        <li>Collaboration</li>
-                        <li>Empathy</li>
-                        <li>Time Management</li>
-                    </ul>
+                
+                <!-- Soft Skills Section -->
+                <div class ="soft-skills-section col">
+                    <div id="soft-skills-title">Soft Skills</div>
+                    <div id="soft-skills-text">
+                        <ul>
+                            <li>Communication</li>
+                            <li>Organization</li>
+                            <li>Adaptability</li>
+                            <li>Team Player</li>
+                            <li>Creativity</li>
+                            <li>Problem Solver</li>
+                            <li>Collaboration</li>
+                            <li>Empathy</li>
+                            <li>Time Management</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -135,23 +141,25 @@
         
         <!-- Project Section -->
         <div class ="projects-section container" id="projects-section">
-            <div id="projects-title">Projects</div>
-            <div id="projects-text">
-                <div class="npsg-section">
-                    <div id="npsg-title">NPS Guide</div>
-                    <div id="npsg-link"><a href="http://www.nps-guide.com/">NPS Guide</a></div>
-                    <div id="npsg-link"><a href="https://github.com/Meaguileraa/NPS-Guide">GitHub</a></div>
-                    <div id="npsg-text">
-                        <p>
-                            Start planning your next visit to any of the 62 National Parks. National Park Service Guide 
-                            is a full-stack web application that allows a user to choose a National Park and view the 
-                            activities available at that park to save to a bucket list. I utilized the National Park Service 
-                            API to retreive the necessary data to provide park and activity information.  
-                        </p>
-                        <div id ="npsg-tech-stack">
+            <h2>Projects</h2>
+            <div id="projects-text row">
+                <div class="project col">
+                    <div class="npsg-section">
+                        <div id="npsg-title">NPS Guide</div>
+                        <div id="npsg-link"><a href="http://www.nps-guide.com/">NPS Guide</a></div>
+                        <div id="npsg-link"><a href="https://github.com/Meaguileraa/NPS-Guide">GitHub</a></div>
+                        <div id="npsg-text">
                             <p>
-                                Tech Stack: Python, Flask, PostgreSQL, SQLAlchemy, JavaScript, jQuery, HTML, Jinja, CSS, Bootstrap
+                                Start planning your next visit to any of the 62 National Parks. National Park Service Guide 
+                                is a full-stack web application that allows a user to choose a National Park and view the 
+                                activities available at that park to save to a bucket list. I utilized the National Park Service 
+                                API to retreive the necessary data to provide park and activity information.  
                             </p>
+                            <div id ="npsg-tech-stack">
+                                <p>
+                                    Tech Stack: Python, Flask, PostgreSQL, SQLAlchemy, JavaScript, jQuery, HTML, Jinja, CSS, Bootstrap
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,9 +170,9 @@
         
         <!-- Work Experience Section -->
         <div class ="work-experience-section container" id="work-experience-section">
-            <div id="work-experience-title">Work Experience</div>
-            <div id="work-experience-text">
-                <div class="kt-section">
+            <h2>Work Experience</h2>
+            <div id="work-experience-text row">
+                <div class="kt-src-section col">
                     <div id="kt-src-title">KeepTruckin | Technical Sourcing Specialist | SF, CA | Oct 2018 - Feb 2020</div>
                     <div id="kt-src-text">
                         <ul>
@@ -172,6 +180,8 @@
                             <li>Independently owned six SWE roles where I supported candidates from source to hire</li>
                         </ul>
                     </div>
+                </div>
+                <div class="kt-rc-section col">
                     <div id="kt-rc-title">KeepTruckin | Recruiting Coordinator | SF, CA | Jan 2018 - Oct 2018</div>
                     <div id="kt-rc-text">
                         <ul>
@@ -197,15 +207,15 @@
     <!-- Contact Section -->
     <footer>
         <div class ="contact-section container" id="contact-section">
-            <div class="contact-me-title">Contact</div>
-            <div class="social-links">
-                <div id="linkedin-link">
+            <h2>Contact</h2>
+            <div class="social-links row">
+                <div class="linkedin-link col">
                     <a href="https://www.linkedin.com/in/marissa-aguilera/"><img src="/static/imgs/linkedin-icon.png" alt="Direct to LinkedIn" height="50" width="50"></a>
                 </div>
-                <div id="github-link">
+                <div class="github-link col">
                     <a href="https://github.com/Meaguileraa"><img src="/static/imgs/github-icon.png" alt="Direct to GitHub" height="70" width="70"></a>
                 </div>
-                <div id="email-link">
+                <div class="email-link col">
                     <a href="mailto:marissaeaguilera@.gmail.com"><img src="/static/imgs/email-icon.png" alt="Direct to Email" height="60" width="60"></a>
                 </div>
             </div>

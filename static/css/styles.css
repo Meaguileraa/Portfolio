@@ -6,14 +6,27 @@
 /* General Layout */
 
 
-body {
-	background-color: #fff3e6;
-    color: #0d335d;
+h1 {
+    text-align: left;
+    color: #006D77;
 }
 
 h2 .text-center{
-    /* font-family: ;
-    color: ; */
     text-align: center;
+}
 
+#headers {
+    color: #006D77;
+}
+
+/* Navbar */
+
+#navbar{
+    background-color:#FFDDD2;
+  }
+
+
+.nav-item {
+    font-size: 20px;
+    color: #006D77;
 }

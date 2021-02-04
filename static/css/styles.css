@@ -4,7 +4,12 @@
 
 
 /* General Layout */
-
+body {
+    color:#0a043c;
+}
+h1, h2, h3, h4, h5, #footer-text {
+    font-family: "Raleway", sans-serif;
+}
 
 h1 {
     text-align: left;
@@ -19,14 +24,31 @@ h2 .text-center{
     color: #006D77;
 }
 
-/* Navbar */
 
+
+/* Navbar */
 #navbar{
     background-color:#FFDDD2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
   }
 
 
 .nav-item {
     font-size: 20px;
     color: #006D77;
+}
+
+
+
+/* Footer */
+#footer-text {
+    color: #E29578;
+    font-weight: bold;
+    font-size: 17px;
 }

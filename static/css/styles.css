@@ -35,14 +35,14 @@ h2 .text-center{
     right: 0;
     height: 70px;
     display: flex;
-    align-items: center;
+    text-align: center;
     padding: 20px;
     z-index: 500;
     justify-content: center;
   }
 
 
-.nav-link {
+.nav-item {
     font-size: 20px;
     color: #006D77;
 }
@@ -52,12 +52,12 @@ h2 .text-center{
 }
 .opening-section, .about-section, .skills-section, 
 .projects-section, .cert-section, .contact-section {
-    padding: 70px;
+    padding: 50px;
 }
 
 /* Footer */
 #footer-text {
     color: #E29578;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
 }

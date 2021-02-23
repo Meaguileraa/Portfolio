@@ -38,17 +38,21 @@ h2 .text-center{
     align-items: center;
     padding: 20px;
     z-index: 500;
+    justify-content: center;
   }
 
 
-.nav-item {
+.nav-link {
     font-size: 20px;
     color: #006D77;
 }
 
+.opening-info {
+    padding-top: 100px;
+}
 .opening-section, .about-section, .skills-section, 
 .projects-section, .contact-section {
-    padding: 80px;
+    padding: 70px;
 }
 
 /* Footer */

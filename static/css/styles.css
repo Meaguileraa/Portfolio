@@ -36,6 +36,8 @@ h2 .text-center{
     height: 70px;
     display: flex;
     align-items: center;
+    padding: 20px;
+    z-index: 500;
   }
 
 
@@ -44,7 +46,10 @@ h2 .text-center{
     color: #006D77;
 }
 
-
+.opening-section, .about-section, .skills-section, 
+.projects-section, .contact-section {
+    padding: 80px;
+}
 
 /* Footer */
 #footer-text {

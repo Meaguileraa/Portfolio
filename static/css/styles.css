@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, #footer-text {
 
 h1 {
     text-align: left;
-    color: #006D77;
+    color: #E29578;
 }
 
 h2 .text-center{
@@ -47,13 +47,21 @@ h2 .text-center{
     color: #006D77;
 }
 
+
+
+
 .opening-info {
     padding-top: 100px;
 }
 .opening-section, .about-section, .skills-section, 
 .projects-section, .cert-section, .contact-section {
-    padding: 50px;
+    padding: 40px;
 }
+
+/* #project-title {
+
+} */
+
 
 /* Footer */
 #footer-text {

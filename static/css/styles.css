@@ -7,6 +7,7 @@
 body {
     color:#0a043c;
 }
+
 h1, h2, h3, h4, h5, #footer-text {
     font-family: "Raleway", sans-serif;
 }
@@ -21,8 +22,9 @@ h2 .text-center{
 }
 
 #headers {
-    color: #006D77;
+    color: #006D77;    
 }
+
 
 
 
@@ -41,12 +43,10 @@ h2 .text-center{
     justify-content: center;
   }
 
-
 .nav-item {
     font-size: 20px;
     color: #006D77;
 }
-
 
 
 
@@ -58,9 +58,13 @@ h2 .text-center{
     padding: 40px;
 }
 
-/* #project-title {
+#project-title {
+    font-size: 22px;
+}
 
-} */
+.projects-text {
+    padding: 15px;
+}
 
 
 /* Footer */

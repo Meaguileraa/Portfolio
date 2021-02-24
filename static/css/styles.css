@@ -73,3 +73,9 @@ h2 .text-center{
     font-weight: bold;
     font-size: 18px;
 }
+
+#social-links {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

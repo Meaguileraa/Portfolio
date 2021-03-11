@@ -16,11 +16,9 @@ app.jinja_env.undefined = StrictUndefined
 def homepage():
     """View a homepage."""
 
-    return render_template("homepage.html")
+    return render_template("index.html")
 
 #resume, projects, contact info 
-
-
 
 
 if __name__ == '__main__':
